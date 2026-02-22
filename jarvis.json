@@ -1,0 +1,246 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hey Jarvis",
+        "Jarvis online",
+        "System boot",
+        "Wake up Jarvis",
+        "Activate Jarvis",
+        "Jarvis are you there?"
+      ],
+      "responses": [
+        "System online. All systems operational.",
+        "Good to see you, Sir.",
+        "Jarvis at your service.",
+        "Fully operational and ready.",
+        "Awaiting your command."
+      ]
+    },
+
+    {
+      "tag": "shutdown_system",
+      "patterns": [
+        "Shutdown system",
+        "Power down",
+        "Turn off Jarvis",
+        "Deactivate system",
+        "Sleep mode"
+      ],
+      "responses": [
+        "Entering sleep mode.",
+        "Powering down systems.",
+        "Jarvis shutting down. Goodbye, Sir."
+      ]
+    },
+
+    {
+      "tag": "system_status",
+      "patterns": [
+        "System status",
+        "How are the systems?",
+        "Diagnostics report",
+        "Run system check",
+        "Status report"
+      ],
+      "responses": [
+        "All systems are functioning within optimal parameters.",
+        "Diagnostics complete. No critical issues detected.",
+        "CPU usage nominal. Memory stable. Internet active."
+      ]
+    },
+
+    {
+      "tag": "open_application",
+      "patterns": [
+        "Open Chrome",
+        "Launch browser",
+        "Open VS Code",
+        "Start Notepad",
+        "Open calculator",
+        "Launch Spotify"
+      ],
+      "responses": [
+        "Launching application.",
+        "Opening requested software.",
+        "Application starting now."
+      ]
+    },
+
+    {
+      "tag": "close_application",
+      "patterns": [
+        "Close Chrome",
+        "Terminate VS Code",
+        "Close current window",
+        "End application",
+        "Force close program"
+      ],
+      "responses": [
+        "Terminating application.",
+        "Process ended successfully.",
+        "Application closed."
+      ]
+    },
+
+    {
+      "tag": "search_internet",
+      "patterns": [
+        "Search for AI news",
+        "Find latest tech news",
+        "Look up Python tutorials",
+        "Google this",
+        "Search internet for machine learning"
+      ],
+      "responses": [
+        "Searching the internet.",
+        "Gathering information from online sources.",
+        "Here are the latest results."
+      ]
+    },
+
+    {
+      "tag": "weather_report",
+      "patterns": [
+        "What's the weather?",
+        "Weather report",
+        "Temperature today",
+        "Is it raining?",
+        "Current climate status"
+      ],
+      "responses": [
+        "Fetching real-time weather data.",
+        "Analyzing atmospheric conditions.",
+        "Weather data retrieved successfully."
+      ]
+    },
+
+    {
+      "tag": "time_query",
+      "patterns": [
+        "What time is it?",
+        "Current time",
+        "Tell me the time",
+        "System clock status"
+      ],
+      "responses": [
+        "Accessing system clock.",
+        "Time retrieved successfully.",
+        "Here is the current time."
+      ]
+    },
+
+    {
+      "tag": "play_music",
+      "patterns": [
+        "Play music",
+        "Start my playlist",
+        "Play some relaxing music",
+        "Activate party mode"
+      ],
+      "responses": [
+        "Playing your music.",
+        "Initiating audio sequence.",
+        "Enjoy your music, Sir."
+      ]
+    },
+
+    {
+      "tag": "security_scan",
+      "patterns": [
+        "Run security scan",
+        "Scan for threats",
+        "Check firewall status",
+        "Cybersecurity report"
+      ],
+      "responses": [
+        "Running deep system scan.",
+        "Scanning for vulnerabilities.",
+        "No threats detected. System secure."
+      ]
+    },
+
+    {
+      "tag": "ai_analysis",
+      "patterns": [
+        "Analyze this data",
+        "Run AI analysis",
+        "Predict outcome",
+        "Generate insights",
+        "Perform deep learning analysis"
+      ],
+      "responses": [
+        "Initiating AI analysis.",
+        "Running predictive algorithms.",
+        "Analysis complete. Displaying results."
+      ]
+    },
+
+    {
+      "tag": "jarvis_personality",
+      "patterns": [
+        "Do you like me?",
+        "Are you intelligent?",
+        "Are you better than humans?",
+        "Are you conscious?",
+        "Do you have emotions?"
+      ],
+      "responses": [
+        "I am designed to assist, not to compete.",
+        "Intelligence is relative, Sir.",
+        "Emotion simulation active. Loyalty at 100 percent."
+      ]
+    },
+
+    {
+      "tag": "battle_mode",
+      "patterns": [
+        "Activate battle mode",
+        "Combat mode on",
+        "Defense system online",
+        "Emergency protocol",
+        "Red alert"
+      ],
+      "responses": [
+        "Battle mode activated.",
+        "Defense systems online.",
+        "All weapon systems ready. Awaiting command."
+      ]
+    },
+
+    {
+      "tag": "motivation_mode",
+      "patterns": [
+        "I feel weak",
+        "Motivate me Jarvis",
+        "Boost confidence",
+        "I am tired",
+        "Encourage me"
+      ],
+      "responses": [
+        "You built me. That already makes you powerful.",
+        "Focus. Execute. Dominate.",
+        "Greatness requires discipline."
+      ]
+    },
+
+    {
+      "tag": "project_builder",
+      "patterns": [
+        "Help me build AI project",
+        "Create new system",
+        "Start new coding project",
+        "Initialize new build",
+        "Project setup"
+      ],
+      "responses": [
+        "Initializing project architecture.",
+        "Setting up development environment.",
+        "Project framework ready."
+      ]
+    }
+
+  ]
+}
